@@ -19,6 +19,6 @@ jobs:
           REMOTE_PORT: ${{ secrets.SSH_PORT }}
           REMOTE_USER: ${{ secrets.SSH_USER }}
           SOURCE: "./"
-          TARGET: "/public_html/"
+          TARGET: "/home/u833033041/public_html/"
           ARGS: "-rltgoDzvc -i --delete"
           EXCLUDE: "/.git/, /.github/, /node_modules/"
